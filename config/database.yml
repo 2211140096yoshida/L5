@@ -32,4 +32,8 @@ production:
   adapter: postgresql
   encording: unicode
   pool: 5
+  database: render_m9na
+  username: render_m9na_user
+  password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
   # database: path/to/persistent/storage/production.sqlite3
