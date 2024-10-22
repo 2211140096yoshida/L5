@@ -1,4 +1,4 @@
-class CreateTweets < ActiveRecord::Migration[7.2]
+class CreateTweets < ActiveRecord::Migration[7.1]
   def change
     create_table :tweets do |t|
       t.string :message
